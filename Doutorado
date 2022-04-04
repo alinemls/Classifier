@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMdd9IyKrVoPRRG34KWpRvD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/alinemls/Classifier/blob/main/Doutorado\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Importação de Bibliotecas**"
+      ],
+      "metadata": {
+        "id": "MzXCLKsZ-H_H"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd \n",
+        "import seaborn as sns\n",
+        "from sklearn.tree import DecisionTreeClassifier\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn import metrics\n",
+        "from sklearn import preprocessing\n",
+        "from scipy.stats import randint\n",
+        "from mlxtend.plotting import plot_confusion_matrix\n",
+        "from sklearn import tree\n",
+        "import matplotlib.pyplot as plt\n",
+        "from sklearn.metrics import roc_curve, roc_auc_score, f1_score, cohen_kappa_score as kappa, confusion_matrix"
+      ],
+      "metadata": {
+        "id": "3yM0Fkfq-I1L"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
